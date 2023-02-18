@@ -1,13 +1,11 @@
 class Game {
     gameId: string
     score: number
-    highScore: number
     sequence: string[]
 
     constructor(gameId: string) {
         this.gameId = gameId
         this.score = 0
-        this.highScore = 0
         this.sequence = []
     }
 

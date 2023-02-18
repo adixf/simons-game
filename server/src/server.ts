@@ -1,8 +1,8 @@
 import express, { Application, Request, Response } from 'express'
-const app: Application = express()
 import gameRouter from './routes/simonGame' 
+const app: Application = express()
 
-const PORT = 8080 
+const PORT: number = 8080 
 
 app.use(express.json())
 
@@ -11,7 +11,7 @@ app.use((req: Request, res: Response, next: any) => {
     next()
 })
 
-app.use((req, res, next) => {
+app.use((req: Request, res: Response, next: any) => {
     res.header("Access-Control-Allow-Origin", "*")
     res.header("Access-Control-Allow-Methods", "GET, OPTIONS, POST, PUT")
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept")
