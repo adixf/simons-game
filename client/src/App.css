@@ -1,0 +1,82 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.startWrapper {
+    position: absolute;
+    margin: auto;
+}
+
+.startWrapper .startButton {
+    font-size:large;
+    background-color: #282c34;
+    border-radius: 100%;
+    height: 130px;
+    width: 130px;
+}
+
+
+.score {
+    background-color: #282c34;
+    border-radius: 100%;
+    height: 130px;
+    width: 130px;
+    justify-content: center;
+    display: flex;
+    align-items: center
+}
+
+.score .scoreText {
+    text-align: center;
+}
+
+.colorButton {
+    height: 200px;
+    width: 200px;
+}
+
+.flash {
+    opacity: 50%;
+}
+
+.buttonWrapper .red {
+    background-color: red;
+    border-bottom-left-radius:100%;
+    margin: 8px;
+}
+
+.buttonWrapper .blue {
+    background-color: blue;
+    border-top-right-radius:100%;
+    margin: 8px;
+}
+
+.buttonWrapper .yellow {
+    background-color: yellow;
+    border-top-left-radius:100%;
+    margin: 8px;
+}
+
+.buttonWrapper .green {
+    background-color: green;
+    border-bottom-right-radius:100%;
+    margin: 8px;
+}
+
+.buttonWrapper {
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.highscore {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35%;
+}
